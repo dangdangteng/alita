@@ -3,14 +3,26 @@ package com.angle.alita.mimor;
 /***
  * created by huxueyan101
  * @data : 2019-04-14,2019
+ * @author saber-opensource
  ***/
 public enum demo2 {
     a("1", 1),
     b("2", 2),
     c("3", 3);
+    /**
+        s 字符串
+     */
     private String s;
+    /**
+        i 整数
+     */
     private Integer i;
 
+    /**
+     *
+     * @param s
+     * @param i
+     */
     demo2(String s, int i) {
         this.s = s;
         this.i = i;
@@ -25,7 +37,7 @@ public enum demo2 {
     }
 }
 
-class aba {
+class A {
 
     public static void main(String[] args) {
         String test = demo2.a.getS();
