@@ -48,5 +48,9 @@ class A {
         int ti2 = demo2.c.getI();
         System.out.printf("%s,%s,%s%n", test, test1, test2);
         System.out.println(ti+ti1+ti2);
+        demo2.b.getS() ;
+
+
+        CharSequence charSequence = test2.subSequence(ti, ti);
     }
 }

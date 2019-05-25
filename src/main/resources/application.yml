@@ -7,3 +7,5 @@ logging:
 spring:
   mvc:
     date-format: yyyy-MM-dd
+server:
+  port:
