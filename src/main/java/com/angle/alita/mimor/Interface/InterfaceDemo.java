@@ -7,4 +7,5 @@ package com.angle.alita.mimor.Interface;
  * @Character description : 最帅的那个就是我
  ***/
 public interface InterfaceDemo {
+    void test();
 }

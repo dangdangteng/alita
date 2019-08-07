@@ -6,5 +6,5 @@ package com.angle.alita.mimor.Interface;
  * @author : 『Ezreal』
  * @Character description : 最帅的那个就是我
  ***/
-public interface InterfaceDemo2 {
+public interface InterfaceDemo2 extends InterfaceDemo {
 }

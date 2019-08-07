@@ -6,6 +6,9 @@ package com.angle.alita.mimor.day;
  * @author : 『Ezreal』
  * @Character description : 最帅的那个就是我
  ***/
-public class integer {
-
+public class IntegerDemo {
+    public static void main(String[] args) {
+        int i = Integer.MAX_VALUE;
+        System.out.println(i);
+    }
 }

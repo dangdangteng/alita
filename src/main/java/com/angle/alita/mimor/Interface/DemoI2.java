@@ -6,6 +6,10 @@ package com.angle.alita.mimor.Interface;
  * @author : 『Ezreal』
  * @Character description : 最帅的那个就是我
  ***/
-public class DemoI2 {
+public class DemoI2 extends DemoI{
 
+    @Override
+    public void test() {
+
+    }
 }

@@ -1,11 +1,9 @@
-logging:
-  level: trace
-  pattern:
-    console:
-    file:
-
 spring:
   mvc:
     date-format: yyyy-MM-dd
+  datasource:
+    hikari:
 server:
-  port:
+  port: 8091
+  servlet:
+    context-path: /api/v2
