@@ -12,10 +12,10 @@ import java.util.concurrent.ThreadPoolExecutor;
 public class ThreadDemoJ {
     public static void main(String[] args) {
         //指定线程的名字便于问题定位
-        Thread thread = new Thread("demo1"){
+        Thread thread = new Thread("Demo1"){
           @Override
           public void run() {
-              System.out.println("demo1");
+              System.out.println("Demo1");
           }
         };
         Thread thread1 = new Thread(){
@@ -27,7 +27,7 @@ public class ThreadDemoJ {
         thread1.setName("demo2");
 //        Thread thread2 = new Thread(task,"faf");
 //        thread2.interrupt();
-        ThreadPoolExecutor threadPool = new ThreadPoolExecutor();
+//        ThreadPoolExecutor threadPool = new ThreadPoolExecutor();
 
     }
 
